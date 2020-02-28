@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>0</y>
+      <w>460</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Electrodomesticos
+--
+-precioBase: (long)
+-color: (String)
+-consumoEnergetico: (char)
+-peso: (double)
+--
++comprobarConsumoEnergetico(char consumoEnergetico, double peso)
++comprobarColor(String Color)
++precioFinal(char consumoEnergetico)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>280</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Lavadora
+--
+-carga:(double)
+--
++precioFinal()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>280</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Televisor
+--
+-resolucion:(double)
+-sintoTDT:(boolean)
+--
++precioFinal()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>150</y>
+      <w>240</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;10.0;220.0;70.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>150</y>
+      <w>240</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;220.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>420</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Ejecutable
+--
+
+--
+-precioFinal()</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
